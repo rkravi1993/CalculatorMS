@@ -19,7 +19,6 @@ public class CalculatorMSServiceTest {
 	@Test
 	public void testSum() {
 		int actual = msService.sum(3, 5);
-		assertNotNull(actual);
 		assertEquals(8, actual);
 	}
 
@@ -32,7 +31,6 @@ public class CalculatorMSServiceTest {
 	@Test
 	public void testProduct() {
 		int actual = msService.product(3, 5);
-		assertNotNull(actual);
 		assertEquals(15, actual);
 	}
 
@@ -45,7 +43,6 @@ public class CalculatorMSServiceTest {
 	@Test
 	public void testModulo() {
 		int actual = msService.modulo(3, 5);
-		assertNotNull(actual);
 		assertEquals(3, actual);
 	}
 
